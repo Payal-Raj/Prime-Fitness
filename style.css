@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+main{
+    overflow-x: hidden;
+}
+::selection {
+    color: White;
+    background: #ed155d;
+  }
+
+.my-bg{
+    background-color: #1d2224;
+}
+
+/* Navbar */
+
+.my-logo {
+    color: #ed155d;
+}
+
+.my-border{
+    border-bottom: 2px solid #ed155d;
+}
+
+.navbar {
+    background-color: #243238;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.my-items {
+    font-size: 25px;
+}
+
+.my-items:hover {
+    background-color: #ed155d;
+}
+
+.my-list:hover{
+    background-color: #ed155d;
+    color: #fff;
+}
+
+/* Home Page */
+/*  hero section */
+#home {
+    position: relative;
+
+}
+
+.bg-video {
+    max-width: 100%;
+    max-height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    background-color: rgba(35, 45, 57, 0.8);
+    top: 0px;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    height: 100vh;
+}
+
+.caption {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.my-font {
+    font-size: 50px;
+}
+
+.my-btn {
+    background-color: #ed155d;
+}
+
+.my-line {
+    width: 100%;
+    border-bottom: 10px solid #ed155d;
+    margin-top: -10px;
+}
+
+.my-process {
+    background-color: #1e2427;
+}
+#testi-1{
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/testi-1.jpg);
+    background-attachment: fixed;
+    color: #2d3741;
+    opacity: 0.85;
+}
+#testi-1 img{
+    height: 100px;
+    width: 100px;
+}
+
+#testi-2{
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/test-2.1.jpg);
+    background-attachment: fixed;
+    color: #2d3741;
+    opacity: 0.85;
+    padding-top: 200px;
+    padding-right: 150px;
+}
+
+#testi-2 h1{
+    font-size: 80px;
+}
+#testi-2 h2{
+    font-size: 40px;
+}
+
+
+/*  home section2*/
+
+.my-hr {
+    width: 30%;
+    border-bottom: 5px solid #ed155d;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.card {
+    background-color: #1e2427;
+    border: 1px solid rgba(12, 9, 19, 0.5);
+    box-shadow: 3px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    box-shadow: 5px 10px 5px #181b1d;
+}
+
+.my-card:hover {
+    box-shadow: 20px 0px 25px #181b1d;
+
+}
+
+.card-body {
+    margin: 35px 5px;
+}
+
+.my-icon {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #ed155d;
+}
+
+.progess-icon {
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.details-icon {
+    font-size: 40px;
+}
+
+
+
+
+
+/* About Us */
+/* Hero section 2 */
+#exercise{
+    position: relative;
+    background-image: url(img/about-2.webp);
+    background-color: #243238;
+    opacity: 0.85;
+    background-size: cover;
+    background-position: center;
+}
+
+.fa-star{
+    color: #ed155d;
+}
+
+/* Hero section 3 */
+.about-icon{
+    font-size: 100px;
+}
+
+/* Hero section 4 */
+.trainer-1{
+   background-image: url(img/trainer.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-2{
+   background-image: url(img/trainer2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-3{
+   background-image: url(img/trainer3.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-4{
+   background-image: url(img/trainer-4.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-5{
+   background-image: url(img/trainer-5.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.trainer-6{
+   background-image: url(img/trainer-6.png);
+   background-size: cover;
+   background-position: center;
+}
+/* swimmimg */
+.swim-img{
+    height: 80%;
+    width: 100%;
+}
+
+/* salon */
+.salon-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* FAQ'S */
+
+.my-accordion{
+    border: 2px solid #181b1d;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+  }
+
+button.accordion-button:focus{
+    box-shadow: inherit;
+}
+.accordion-header:hover{
+    background-color: #2d2f31;
+    color: #fff;
+}
+.faq{
+    background-image: url(img/faq.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+/* contact us */
+.my-contact{
+    background-color: #0f181d;
+    color: #fff;
+    padding: 30px 15px 10px 15px;
+}
+
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.submit-cont{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Site Map */
+.map-list{
+    list-style: none;
+}
+.map-list a{
+    text-decoration: none;
+    
+}
+.my-star{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #243238;
+    color: #fff;
+    padding: 30px 15px 10px 15px;
+}
+
+.footer-icon {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.my-copyright {
+    height: 60px;
+    color: #fff;
+    background-color: #181b1d;
+}
+.footer-links a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querry */
+
+/* hero section */
+@media  screen and (max-device-width: 740px) and (min-device-width:430px) {
+    .caption {
+        top: 50%;
+    }
+   
+}
+
+@media only screen and (max-width: 410px) {
+    .caption{
+        top: 55%;
+    }
+    .my-font{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 488px){
+    .my-btn{
+        margin-top: 5px;
+    }
+}
+
+@media  screen and (max-device-width: 1025px) and (min-device-width:310px) {
+    #testi-2{
+        padding-top: 150px;
+        padding-right: 40px;
+    }
+    #testi-2 h1 {
+        font-size: 40px;
+    }
+    #testi-2 h2 {
+        font-size: 20px;
+    }
+}

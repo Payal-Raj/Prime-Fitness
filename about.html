@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Advice, Workout Tips and More!</title>
+
+  <!--------------Links-------------->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jQuerry -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header>
+    <!------------- Navbar ----------------->
+    <nav class="navbar navbar-expand-lg  m-0 p-0 fixed-top my-border">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" target="_blank">
+          <img src="img/logo2.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white fs-3"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link text-white my-items px-4 active" aria-current="page" href="index.html"
+                target="_blank">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white my-items px-4 active" aria-current="page" href="about.html"
+                target="_blank">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle btn-* text-white my-items px-4" href="cycling.html" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu  text-white" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item my-list" href="cycling.html" target="_blank">Cycling</a>
+                </li>
+                <li><a class="dropdown-item my-list" href="swimming.html" target="_blank">Swimmimg</a>
+                </li>
+                <li><a class="dropdown-item my-list" href="sports.html" target="_blank">Sports &
+                    Fitness</a></li>
+                <li><a class="dropdown-item my-list" href="excercise.html" target="_blank">Group
+                    Excercise</a></li>
+                <li><a class="dropdown-item my-list" href="membership.html" target="_blank">Membership</a></li>
+                <li><a class="dropdown-item my-list" href="salon.html" target="_blank">Salon & Spa</a>
+                </li>
+                <li><a class="dropdown-item my-list" href="gallery.html" target="_blank">Gallery</a>
+                </li>
+                <li><a class="dropdown-item my-list" href="equipments.html" target="_blank">Equipments</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white my-items px-4" aria-current="page" href="faq.html" target="_blank">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white my-items px-4" aria-current="page" href="Contact.html"
+                target="_blank">Enquiry Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main -->
+
+  <main>
+    <!-- Hero-section -->
+    <section id="about">
+      <video autoplay="" muted="" loop="" class="bg-video">
+        <source src="img/ab-video.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay">
+        <div class="caption text-center text-white">
+          <p class="fs-4">Your fitness journey starts here.</p>
+          <h1 class="my-font my-logo pb-3">The Greatest Wealth Is Health.</h1>
+          <p class="fs-4">Take care of your body. It’s the only place you have to live.</p>
+          <a href="#about-1" class="btn my-btn  text-white rounded-pill p-3 fs-4">Let's Explore More!</a>
+        </div>
+      </div>
+      <div class="my-line"></div>
+      <section id="about-1" class="my-bg text-white">
+        <div class="container pt-5">
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 my-5">
+              <img class="img-fluid" src="img/about-1.jpg" alt="" data-aos="fade-right">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12" data-aos="zoom-in">
+              <h1 class=" py-4 text-center ">OUR PRIME <span class=" my-logo">FITNESS GYM</span></h1>
+              <p class="fs-4 text-start">
+                Prime Fitness is a fitness program provided at no cost by your employer or health plan. It is a free
+                fitness program for participants aged 18-65 years old. <span style="color: #ed155d;">NO COST MEANS NO
+                  EXCUSES! </span> Prime Fitness includes
+                unlimited access to every participating gym and fitness center in the network
+              </p>
+              <ol class="fs-5 pt-3" style="list-style: none;">
+                <li>Any type of yoga experience</li>
+                <li>Professional team with unique program</li>
+                <li>Individual or group classes</li>
+                <li>Flexible schedule options</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    
+    <!-- Hero section 2 -->
+    <section id="exercise">
+      <div class="container-fluid pb-5 my-container">
+        <h1 class=" text-center text-white pt-4">REASON TO <span class=" my-logo">TRY EXERCISE</span></h1>
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h4 class="text-center text-white fs-3 py-3"> Exercise gives us energy</h4>
+            <p class="text-center text-white fs-5">
+              <i class="fa-regular fa-star me-3"></i>
+              Regular physical activity makes your muscles, heart, and lungs stronger, giving you more energy and
+              strength to tackle everyday chores like shoveling snow and hauling in groceries.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h4 class="text-center text-white py-3 fs-3"> Exercise helps us sleep better</h4>
+            <p class="text-center text-white fs-5">
+              <i class="fa-regular fa-star me-3"></i>
+              Exercise can help to give you a break from your worries.6 While you’re exercising, your focus is on what
+              you’re doing. This could be your swimming stroke, your running pace, what your teammates are doing
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h4 class="text-center text-white  py-3 fs-3"> Exercise controls weight</h4>
+            <p class="text-center text-white fs-5">
+              <i class="fa-regular fa-star me-3"></i>
+              Exercising is an excellent way to lose weight and to help keep it off. When we exercise we burn calories,
+              with more intense exercises burning more calories.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero section 3 -->
+    <section id="team" class="my-bg text-white">
+      <div class="container-fluid py-5">
+        <h1 class="text-center text-white pb-3">OUR <span class=" my-logo">TEAM</span></h1>
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-12 ">
+            <i class="fa-solid fa-user-large about-icon"></i>
+            <h4 class="pt-2">Payal</h4>
+            <p class=" text-success fs-5">Team member</p>
+            <p class=" text-danger fs-4"> SKILLS</p>
+            <p class="fs-5">Ms Office,html,CSS,<br>
+              Bootstrap,Javascript,<br>
+              Jquery,UI and UX</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <i class="fa-solid fa-user-large about-icon"></i>
+            <h4 class="pt-2">Ayesha</h4>
+            <p class="text-success fs-5">Team member</p>
+            <p class=" text-danger fs-4"> SKILLS</p>
+            <p class="fs-5">Ms Office,html,CSS,<br>
+              Bootstrap,Javascript,<br>
+              Jquery,UI and UX</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <i class="fa-solid fa-user-large about-icon"></i>
+            <h4 class="pt-2">Iqra</h4>
+            <p class="text-success fs-5">Team member</p>
+            <p class=" text-danger fs-4"> SKILLS</p>
+            <p class="fs-5">Ms Office,html,CSS,<br>
+              Bootstrap,Javascript,<br>
+              Jquery,UI and UX</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <i class="fa-solid fa-user-large about-icon"></i>
+            <h4 class="pt-2">Zainab</h4>
+            <p class="text-success fs-5">Team member</p>
+            <p class=" text-danger fs-4"> SKILLS</p>
+            <p class="fs-5">Ms Office,html,CSS,<br>
+              Bootstrap,Javascript,<br>
+              Jquery,UI and UX</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section 4 -->
+    <div class="my-line p-1"></div>
+    <section id="trainers" style="background-color: #151f24;">
+      <div class="container">
+        <h1 class=" text-center text-white py-3">EXPERT <span class=" my-logo">TRAINERS</span></h1>
+
+        <p class="text-center text-white fs-5">We carefully hire and train our team of talented coaches at Structure
+          Health &
+          Fitness.
+          <br>
+          Technical expertise and experience matter, but so does a positive, empathetic and aspirational attitude.
+          <br>
+          Meet our friendly team of training rock stars
+        </p>
+        <h3 class="text-center text-white ">Meet Your Trainers</h3>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-1"
+              data-bs-toggle="modal" data-bs-target="#exampleModal-16" data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Muscle <br> Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-16" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content my-process text-white">
+                <div class="modal-header">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="img/trainer.jpg" alt="" class="border img-fluid">
+                  <h2 class="my-logo ">ALEEZAH ARIF</h2>
+                  <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio exercises
+                    followed by brief periods of recovery. It’s almost like taking an hour-long workout with moderate
+                    intensity and squeezing it all into a period of time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-2"
+              data-bs-toggle="modal" data-bs-target="#exampleModal-17" data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Power <br> Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-17" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content my-process text-white">
+                <div class="modal-header">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="img/trainer2.jpg" alt="" class="border img-fluid">
+                  <h2 class="my-logo ">MUHAMMAD JAWAD</h2>
+                  <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio exercises
+                    followed by brief periods of recovery. It’s almost like taking an hour-long workout with moderate
+                    intensity and squeezing it all into a period of time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-3"
+              data-bs-toggle="modal" data-bs-target="#exampleModal-18" data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Strength Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-18" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content my-process text-white">
+                <div class="modal-header">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="img/trainer3.jpg" alt="" class="border img-fluid">
+                  <h2 class="my-logo ">KANWAL BUTT</h2>
+                  <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio exercises
+                    followed by brief periods of recovery. It’s almost like taking an hour-long workout with moderate
+                    intensity and squeezing it all into a period of time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-4"
+              data-bs-toggle="modal" data-bs-target="#exampleModal-19" data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fitness <br> Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-19" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content my-process text-white">
+                <div class="modal-header">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="img/trainer-4.jpg" alt="" class="border img-fluid">
+                  <h2 class="my-logo ">FARRUKH SULTAN</h2>
+                  <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio
+                    exercises followed by brief periods of recovery. It’s almost like taking an hour-long workout with
+                    moderate intensity and squeezing it all into a period of time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-5"
+              data-bs-toggle="modal" data-bs-target="#exampleModal-20" data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cardio <br> Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-20" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content my-process text-white">
+                <div class="modal-header">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="img/trainer-5.jpg" alt="" class="border img-fluid">
+                  <h2 class="my-logo ">FARRUKH SULTAN</h2>
+                  <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio
+                    exercises followed by brief periods of recovery. It’s almost like taking an hour-long workout with
+                    moderate intensity and squeezing it all into a period of time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg trainer-6"  data-bs-toggle="modal" data-bs-target="#exampleModal-21"
+              data-aos="fade-up" data-aos-duration="3000">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Physique <br> Trainer</h2>
+                <div class="d-flex pt-3 justify-content-end mt-5 ">
+                  <i class="fa-brands fa-facebook  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-instagram  fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-youtube fs-5 ms-2 "></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 ms-2 "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+          <div class="modal fade " id="exampleModal-21" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content my-process text-white">
+              <div class="modal-header">
+                <h3 class="modal-title text-center" id="exampleModalLabel">Description</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="img/trainer-6.png" alt="" class="border img-fluid">
+                <h2 class="my-logo ">ASAD RIAZ BHATTI</h2>
+                <p class="mt-3 fs-5">HIIT workouts require you bursts of high-intensity strength and cardio
+                  exercises followed by brief periods of recovery. It’s almost like taking an hour-long workout with
+                  moderate intensity and squeezing it all into a period of time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+  </main>
+  <div class="my-line p-1"></div>
+
+  <!-- footer -->
+  <footer class=" m-0 ">
+    <div class="container-fluid  my-footer p-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+          <h1 class="m-0 text-white">PRIME <span class=" my-logo">FITNESS</span></h1>
+          <p class="fs-5 pt-3">Prime Fitness Is The Best Gym For Ladies & Gents Located In Aptech North
+            Nazimabad
+            Karachi, Pakistan. A Top-notch Health Fitness Club With Experienced Trainers & Latest Gym
+            Equipment.</p>
+          <h3 class="pt-4">Follow US</h3>
+          <div class="d-flex pt-3 justify-content-start ">
+            <i class="fa-brands fa-facebook  footer-icon "></i>
+            <i class="fa-brands fa-instagram footer-icon "></i>
+            <i class="fa-brands fa-youtube  footer-icon "></i>
+            <i class="fa-brands fa-linkedin-in  footer-icon "></i>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+          <h3 class="ms-4 text-white">Useful Links</h3>
+          <p class="border-bottom fs-5 footer-links"><a href="index.html" class="fs-4 text-white"
+              target="_blank">Home</a></p>
+          <p class="border-bottom fs-5 footer-links"><a href="about.html" class="fs-4 text-white" target="_blank">About
+              Us</a></p>
+          <p class="border-bottom fs-5 footer-links"><a href="gallery.html" class="fs-4 text-white"
+              target="_blank">Categories</a></p>
+          <p class="border-bottom fs-5 footer-links"><a href="faq.html" class="fs-4 text-white"
+              target="_blank">FAQ's</a></p>
+          <p class="border-bottom fs-5 footer-links"><a href="Contact.html" class="fs-4 text-white"
+              target="_blank">Enquiry Form</a></p>
+          <p class="border-bottom fs-5 footer-links"><a href="map.html" class="fs-4 text-white" target="_blank">Site
+              Map</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+          <h3 class="ms-4 text-white">Opening Hours</h3>
+          <ul class="mt-4 fs-5">
+            <li>Monday 06:00 AM To 11:00 PM</li>
+            <li>Tuesday 06:00 AM To 11:00 PM</li>
+            <li> Wednesday 06:00 AM To 11:00 PM</li>
+            <li> Thursday 06:00 AM To 11:00 PM</li>
+            <li>Friday 06:00 AM To 11:00 PM</li>
+            <li>Saturday 09:00 AM To 10:00 PM</li>
+            <li>Sunday 10:00 AM To 07:00 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <div class="container-fluid text-center my-copyright fs-4 pt-3">
+    Copyright © 2024 | Prime Fitness
+  </div>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

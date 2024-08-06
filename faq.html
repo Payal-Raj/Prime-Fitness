@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Advice, Workout Tips and More!</title>
+
+  <!--------------Links-------------->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jQuerry -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header>
+    <!------------- Navbar ----------------->
+    <nav class="navbar navbar-expand-lg  m-0 p-0 fixed-top my-border">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" target="_blank">
+              <img src="img/logo2.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white fs-3"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white my-items px-4 active" aria-current="page" href="index.html"
+                            target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white my-items px-4 active" aria-current="page" href="about.html"
+                            target="_blank">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn-* text-white my-items px-4" href="cycling.html"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu  text-white" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item my-list" href="cycling.html" target="_blank">Cycling</a>
+                            </li>
+                            <li><a class="dropdown-item my-list" href="swimming.html" target="_blank">Swimmimg</a>
+                            </li>
+                            <li><a class="dropdown-item my-list" href="sports.html" target="_blank">Sports &
+                                    Fitness</a></li>
+                            <li><a class="dropdown-item my-list" href="excercise.html" target="_blank">Group
+                                    Excercise</a></li>
+                            <li><a class="dropdown-item my-list" href="membership.html"
+                                    target="_blank">Membership</a></li>
+                            <li><a class="dropdown-item my-list" href="salon.html" target="_blank">Salon & Spa</a>
+                            </li>
+                            <li><a class="dropdown-item my-list" href="gallery.html" target="_blank">Gallery</a>
+                            </li>
+                            <li><a class="dropdown-item my-list" href="equipments.html"
+                                    target="_blank">Equipments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white my-items px-4" aria-current="page" href="faq.html"
+                            target="_blank">FAQ's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white my-items px-4" aria-current="page" href="Contact.html"
+                            target="_blank">Enquiry Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  
+  <!-- main -->
+
+  <main>
+    <!-- Section1 -->
+    <section id="faq" class="text-center py-5 faq">
+      <div class="container pt-5 text-white">
+        <h3>Got Question?We have Answer. </h3>
+        <p class="text-muted">For more information about primefitness, please visit our About Us page </p>
+        <h1 class=" py-4 text-center ">FA<span class=" my-logo">Q'S</span></h1>
+      </div>
+      <div class="container py-2 my-accordion border ">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <i class="fa-regular fa-star me-3"></i> What Do I Wear To Class?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Myself and my team of physique coaches here in Nottingham are known for the
+                standard of results we produce for our clients. Our clients deserve the best equipment to train on
+                day-to-day. PRIME as a company puts so much detail into the thought process behind every piece of
+                equipment that they manufacture – anatomy, physiology, biomechanics, when combined make the best
+                equipment. I don’t know an equipment manufacture that puts the amount of detail in their equipment
+                design that PRIME does. In order for my team to continue producing the standard of quality of results
+                that we do, we would be lost without pieces of equipment such as PRIME.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <i class="fa-regular fa-star me-3"></i> Do I Need Any Prior Yoga Experience?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">We chose PRIME Fitness USA for the Warhouse Gym because we want to give our
+                members, our guests, our trainers, and of course ourselves the opportunity to be able to take athletic
+                performance to the next level. The adjustable SmartCam and 3-peg Torque Arm design help you to train
+                “smarter” by incorporating the use of the strength curve. Very few exercises, if any, maintain high
+                tension on a muscle throughout its entire range of motion. Because of joint angles, the resistance or
+                tension of an exercise cannot be constant through the entire rep. Most exercises have strength curves
+                where tension is high only in specific portions of the range of motion, but by using PRIME’s innovative
+                SmartStrength technology, you are able to train your muscle and give tension through the full range of
+                motion. It’s also great for working on sticking points of exercises and helps you to recruit more muscle
+                fibers that you would not be recruiting on traditional equipment. Train smarter. Train to get stronger.
+                And maximize your time in the gym! Thank you PRIME Fitness! We love you and our members love you!</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <i class="fa-regular fa-star me-3"></i> What If I Get Tired?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">I have invested in PRIME equipment to get the best out of my coaching results.
+                Many Olympians get referred to me to help them deal with injuries. The biggest advantage of the
+                SmartStrength feature, is that is allows me to match the strength curve of the athlete for a full range
+                of motion. Their Plate Loaded Leg Curl is my favorite in dealing with hamstrings tears, as I can get the
+                athlete to do full range in record time, and rebuild the strength accordingly. Because of the
+                incompetence in the strength and conditioning world, I see a lot of slap tears. There again, a
+                resistance training machine that allows to overload specific patterns of the strength curve is critical.
+                Not only is PRIME ultra-valuable in the rehab process, the company also builds very sturdy, efficient
+                pieces to maximize strength training.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <i class="fa-regular fa-star me-3"></i> Where Do I Put My Keys And Cell Phone?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Morbi vel leo interdum enim varius faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet leo sed commodo convallis. Praesent rutrum, est eu tempor scelerisque, lorem eros condimentum lectus, vel malesuada tortor enim nec ipsum. Sed suscipit maximus massa, at pulvinar erat vehicula sed. Curabitur at metus ornare, sollicitudin ante porta, imperdiet quam. Donec id ullamcorper justo. Vivamus id consectetur nibh. Nunc ut augue nec eros malesuada congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus nec dui quis massa maximus lobortis a facilisis purus. Praesent in maximus odio.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <i class="fa-regular fa-star me-3"></i> I Have A Medical Condition Or Injure. Can I Still Participate In Class?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Morbi vel leo interdum enim varius faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet leo sed commodo convallis. Praesent rutrum, est eu tempor scelerisque, lorem eros condimentum lectus, vel malesuada tortor enim nec ipsum. Sed suscipit maximus massa, at pulvinar erat vehicula sed. Curabitur at metus ornare, sollicitudin ante porta, imperdiet quam. Donec id ullamcorper justo. Vivamus id consectetur nibh. Nunc ut augue nec eros malesuada congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus nec dui quis massa maximus lobortis a facilisis purus. Praesent in maximus odio.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                <i class="fa-regular fa-star me-3"></i> Can I use the studio away from Personal Training appointments?
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The studio is used for Personal Training appointments only. There is no access outside of these sessions.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                <i class="fa-regular fa-star me-3"></i> How much does a Personal Training session cost?
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingSeven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">You can find out more about pricing via the enquiry form below.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                <i class="fa-regular fa-star me-3"></i> Is parking provided? And is it free?
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingEight"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Parking is provided and is free. There is an open, well kept gravel courtyard which can hold nearly 20 vehicles, providing ample parking for your visit.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                <i class="fa-regular fa-star me-3"></i> What is your cancellation policy?
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingNine"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">For Personal Training sessions we have a 24 hour cancellation policy. If you cancel your session within 24 hours of the session starting, we can charge you the full session price for late notice. We do understand however that circumstances out of your control do occur, and we therefore review this on a case by case basis.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                <i class="fa-regular fa-star me-3"></i> Do you offer online training?
+              </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingTen"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes we do have an online offering. We are able to provide Personal Training online via Zoom, FaceTime, WhatsApp video etc. reducing the limitations of physical location. Consultations can also be taken online over video.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEleven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                <i class="fa-regular fa-star me-3"></i> Is a changing area available?
+              </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingEleven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">There are no changing rooms provided. However, the toilets do provide space to change if necessary. There is no access to a shower.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwelve">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                <i class="fa-regular fa-star me-3"></i> Are there toilets?
+              </button>
+            </h2>
+            <div id="flush-collapseTwelve" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingTwelve"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes there are. They are situated directly next to the studio and can be accessed at all times.</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+  </main>
+  <div class="my-line p-1"></div>
+
+  <!-- footer -->
+
+  <footer class=" m-0 ">
+    <div class="container-fluid  my-footer p-3">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+                <h1 class="m-0 text-white">PRIME <span class=" my-logo">FITNESS</span></h1>
+                <p class="fs-5 pt-3">Prime Fitness Is The Best Gym For Ladies & Gents Located In Aptech North
+                    Nazimabad
+                    Karachi, Pakistan. A Top-notch Health Fitness Club With Experienced Trainers & Latest Gym
+                    Equipment.</p>
+                <h3 class="pt-4">Follow US</h3>
+                <div class="d-flex pt-3 justify-content-start ">
+                    <i class="fa-brands fa-facebook  footer-icon "></i>
+                    <i class="fa-brands fa-instagram footer-icon "></i>
+                    <i class="fa-brands fa-youtube  footer-icon "></i>
+                    <i class="fa-brands fa-linkedin-in  footer-icon "></i>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+                <h3 class="ms-4 text-white">Useful Links</h3>
+                <p class="border-bottom fs-5 footer-links"><a href="index.html" class="fs-4 text-white"
+                        target="_blank">Home</a></p>
+                <p class="border-bottom fs-5 footer-links"><a href="about.html" class="fs-4 text-white"
+                        target="_blank">About Us</a></p>
+                <p class="border-bottom fs-5 footer-links"><a href="gallery.html" class="fs-4 text-white"
+                        target="_blank">Categories</a></p>
+                <p class="border-bottom fs-5 footer-links"><a href="faq.html" class="fs-4 text-white"
+                        target="_blank">FAQ's</a></p>
+                <p class="border-bottom fs-5 footer-links"><a href="Contact.html" class="fs-4 text-white"
+                        target="_blank">Enquiry Form</a></p>
+                <p class="border-bottom fs-5 footer-links"><a href="map.html" class="fs-4 text-white"
+                        target="_blank">Site Map</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-5">
+                <h3 class="ms-4 text-white">Opening Hours</h3>
+                <ul class="mt-4 fs-5">
+                    <li>Monday 06:00 AM To 11:00 PM</li>
+                    <li>Tuesday 06:00 AM To 11:00 PM</li>
+                    <li> Wednesday 06:00 AM To 11:00 PM</li>
+                    <li> Thursday 06:00 AM To 11:00 PM</li>
+                    <li>Friday 06:00 AM To 11:00 PM</li>
+                    <li>Saturday 09:00 AM To 10:00 PM</li>
+                    <li>Sunday 10:00 AM To 07:00 PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+  <div class="container-fluid text-center my-copyright fs-4 pt-3">
+    Copyright © 2024 | Prime Fitness
+  </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
